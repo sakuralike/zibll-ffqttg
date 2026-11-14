@@ -1,0 +1,39 @@
+.zibll-ffqttg-paybox > .title-theme {
+    cursor: pointer;
+    user-select: none;
+}
+
+.zibll-ffqttg-paybox-arrow {
+    transition: transform 0.2s ease;
+}
+
+.zibll-ffqttg-paybox.is-collapsed > .title-theme .zibll-ffqttg-paybox-arrow {
+    transform: rotate(-90deg);
+}
+
+.zibll-ffqttg-paybox.is-collapsed > *:not(.title-theme) {
+    display: none;
+}
+
+.zibll-ffqttg-resource-panel-body {
+    padding-top: 4px;
+}
+
+.zibll-ffqttg-resource-row {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid var(--main-border-color);
+    border-radius: 4px;
+}
+
+.zibll-ffqttg-resource-row .form-control {
+    margin-bottom: 10px;
+}
+
+.zibll-ffqttg-resource-card {
+    margin-bottom: 20px;
+}
+
+.zibll-ffqttg-copy {
+    cursor: pointer;
+}
